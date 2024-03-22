@@ -1,0 +1,9 @@
+ # Additional fields for text, image, audio, video, etc.
+    # text_content = models.TextField(blank=True, null=True)
+    # image = models.ImageField(upload_to='images/', blank=True, null=True)
+    # audio = models.FileField(upload_to='audio/', blank=True, null=True)
+    # video = models.FileField(upload_to='video/', blank=True, null=True)
+    # facebook_post = models.URLField(blank=True, null=True)
+    # article = models.URLField(blank=True, null=True)
+    # book = models.URLField(blank=True, null=True)
+    # lecture = models.URLField(blank=True, null=True)

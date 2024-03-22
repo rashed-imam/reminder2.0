@@ -1,0 +1,7 @@
+<!-- search_form.html -->
+<form action="{% url 'search' %}" method="POST">
+     {% csrf_token %}
+    <label for="search_input">Search:</label>
+    <input type="text" id="search_input" name="q" placeholder="Enter search terms">
+    <button type="submit">Search</button>
+</form>

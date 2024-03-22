@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    {% if items %}
+        <ul>
+        {% for item in items %}
+            <li>{{ item.title }}</li>
+            <!-- Display other fields as needed -->
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No items found.</p>
+    {% endif %}
+</body>
+</html>
